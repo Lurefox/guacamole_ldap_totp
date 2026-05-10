@@ -6,22 +6,26 @@ git clone "https://github.com/Lurefox/guacamole_ldap_totp.git"
 ```
 
 ```bash
-cd guacamole-docker-compose
+cd guacamole_ldap_totp
 ```
 
 ---
 
 ### Ejecutar script de inicialización para la base de datos PostgreSQL 
 ```bash
-./prepare.sh
+chmod +x prepare.sh && ./prepare.sh
 ```
 
 ---
 
+### Crear archivo ENV
+```
+touch .env && nano .env
+```
+
 ### .ENV
 ```.env
-POSTGRESQL_PASSWORD=password_sql
-POSTGRES_PASSWORD=password_postgres
+POSTGRES_PASSWORD=password_sql
 LDAP_SEARCH_BIND_PASSWORD=Password_user_ad
 LDAP_HOSTNAME=hostname_server
 ```
