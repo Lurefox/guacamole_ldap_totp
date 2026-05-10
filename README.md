@@ -45,6 +45,13 @@ docker compose up -d
 
 ---
 
+### Iniciar sesión con:
+```
+User: guacadmin
+Pass: guacadmin
+
+```
+
 ### Este repositorio esta basado de 
 
 https://github.com/boschkundendienst/guacamole-docker-compose
