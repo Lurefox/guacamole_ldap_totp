@@ -52,6 +52,6 @@ Pass: guacadmin
 
 ```
 
-### Este repositorio esta basado de 
+### Este repositorio esta basado de:
 
 https://github.com/boschkundendienst/guacamole-docker-compose
